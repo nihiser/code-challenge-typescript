@@ -7,3 +7,7 @@ Tech stack
 - React (not CRA) w/ Hooks (16.9) w/ TypeScript
 - SCSS
 - Apollo / GraphQL
+
+## Current build process
+- `npm run build` 
+- `npm run dev`
