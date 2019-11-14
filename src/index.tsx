@@ -1,8 +1,8 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import { TestComponent } from './components/TestComponent/TestComponent';
+import { App } from './App';
 
 ReactDOM.render(
-  <TestComponent compiler="TypeScript" framework="React" />,
+  <App />,
   document.getElementById("root")
 )
