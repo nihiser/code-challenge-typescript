@@ -4,8 +4,8 @@ This is a refactored version using TypeScript and a few other things that I did 
 initial version. 
 
 Tech stack
-- React (not CRA) w/ Hooks (16.9) w/ TypeScript
-- SCSS
+- React (not CRA) w/ Hooks (16.11) w/ TypeScript (3.7)
+- SCSS w/ CSS-modules
 - Apollo / GraphQL
 
 ## Current build process
