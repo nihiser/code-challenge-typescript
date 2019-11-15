@@ -7,9 +7,6 @@ interface CssExports {
   'h4': string;
   'h5': string;
   'h6': string;
-  'hero--subtext': string;
-  'hero--text': string;
-  'hero--wrapper': string;
 }
 export const cssExports: CssExports;
 export default cssExports;

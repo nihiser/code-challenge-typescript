@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { Button } from './components/Button/Button';
 import { Hero } from './components/Hero/Hero';
+import './globals/styles/main.scss';
 
 
 export const App = () => (

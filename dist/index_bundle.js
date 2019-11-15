@@ -221,12 +221,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_Button_Button__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/Button/Button */ "./src/components/Button/Button.tsx");
 /* harmony import */ var _components_Hero_Hero__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/Hero/Hero */ "./src/components/Hero/Hero.tsx");
+/* harmony import */ var _globals_styles_main_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./globals/styles/main.scss */ "./src/globals/styles/main.scss");
+/* harmony import */ var _globals_styles_main_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_globals_styles_main_scss__WEBPACK_IMPORTED_MODULE_3__);
+
 
 
 
 const App = () => (react__WEBPACK_IMPORTED_MODULE_0__["createElement"](react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], null,
-    react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_components_Hero_Hero__WEBPACK_IMPORTED_MODULE_2__["Hero"], { text: "hello", subtext: "hi there" }),
-    react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_components_Button_Button__WEBPACK_IMPORTED_MODULE_1__["Button"], { onClick: null, inverted: true }, "Button")));
+    react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_components_Hero_Hero__WEBPACK_IMPORTED_MODULE_2__["Hero"], { text: "Hero Text", subtext: "Hero Subtext" }),
+    react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_components_Button_Button__WEBPACK_IMPORTED_MODULE_1__["Button"], { onClick: null, inverted: true }, "Button Test")));
 
 
 /***/ }),
@@ -283,7 +286,7 @@ const Button = ({ children, inverted, onClick }) => {
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
-module.exports = {"h1":"Hero__h1--1O186","h2":"Hero__h2--3zKWE","h3":"Hero__h3--AukOV","h4":"Hero__h4--3jJFu","h5":"Hero__h5--1RWgP","h6":"Hero__h6--51xTi","hero--text":"Hero__hero--text--2YOlD","hero--subtext":"Hero__hero--subtext--zquwE"};
+module.exports = {"h1":"Hero__h1--1O186","h2":"Hero__h2--3zKWE","h3":"Hero__h3--AukOV","h4":"Hero__h4--3jJFu","h5":"Hero__h5--1RWgP","h6":"Hero__h6--51xTi","hero--wrapper":"Hero__hero--wrapper--1RqS8","hero--text":"Hero__hero--text--2YOlD","hero--subtext":"Hero__hero--subtext--zquwE"};
 
 /***/ }),
 
@@ -306,10 +309,22 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const Hero = (props) => (react__WEBPACK_IMPORTED_MODULE_0__["createElement"](react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], null,
+const Hero = (props) => (react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("section", { className: classnames__WEBPACK_IMPORTED_MODULE_1___default()(_Hero_scss__WEBPACK_IMPORTED_MODULE_2___default.a["hero--wrapper"]) },
     react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("h1", { className: classnames__WEBPACK_IMPORTED_MODULE_1___default()(_Hero_scss__WEBPACK_IMPORTED_MODULE_2___default.a["hero--text"]) }, props.text),
     react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("h3", { className: classnames__WEBPACK_IMPORTED_MODULE_1___default()(_Hero_scss__WEBPACK_IMPORTED_MODULE_2___default.a["hero--subtext"]) }, props.subtext)));
 
+
+/***/ }),
+
+/***/ "./src/globals/styles/main.scss":
+/*!**************************************!*\
+  !*** ./src/globals/styles/main.scss ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+module.exports = {"h1":"main__h1--2p2Kt","h2":"main__h2--2yq_v","h3":"main__h3--1pFtO","h4":"main__h4--1j4u2","h5":"main__h5--1h-5y","h6":"main__h6--3VArs"};
 
 /***/ }),
 
