@@ -1,0 +1,14 @@
+@import "../../globals/styles/typography";
+
+.hero--text {
+  @include font-light;
+}
+
+.hero--subtext {
+  @include font-light;
+  display: block;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  max-width: 750px;
+}
