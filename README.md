@@ -9,5 +9,6 @@ Tech stack
 - Apollo / GraphQL
 
 ## Current build process
+- `npm install`
 - `npm run build` 
 - `npm run dev`
