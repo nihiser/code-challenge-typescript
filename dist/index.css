@@ -25,7 +25,7 @@ h6,
 
 .Button__button--3_Ozh {
   font-family: "Helvetica Neue", Helvetica, san-serif;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 1px;
   background-color: #002b56;
   border-color: #002b56;
@@ -47,6 +47,78 @@ h6,
     color: #002b56; }
     .Button__button--3_Ozh.Button__inverted--VH8sb:hover {
       background-color: #eff7ff; }
+
+h1,
+.Card__h1--1Bm1P {
+  font-size: 54px; }
+
+h2,
+.Card__h2--AoAPc {
+  font-size: 34px; }
+
+h3,
+.Card__h3--2UnF7 {
+  font-size: 22px; }
+
+h4,
+.Card__h4--2O58m {
+  font-size: 20px; }
+
+h5,
+.Card__h5--145zU {
+  font-size: 16px; }
+
+h6,
+.Card__h6--iz1xy {
+  font-size: 12px;
+  text-transform: uppercase; }
+
+.Card__card-wrapper--3Bydi {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  max-width: 400px;
+  width: 100%; }
+  .Card__card-wrapper--3Bydi .Card__card-metadata--wrapper--Pji_6 {
+    -webkit-box-flex: 0;
+    flex: 0 1 auto; }
+  .Card__card-wrapper--3Bydi .Card__card-metadata--image--1-Y0f {
+    height: 228px;
+    width: 100%; }
+    .Card__card-wrapper--3Bydi .Card__card-metadata--image--1-Y0f img {
+      -o-object-fit: cover;
+      object-fit: cover; }
+  .Card__card-wrapper--3Bydi .Card__card-metadata--name--1N2dl {
+    font-size: 26px; }
+  .Card__card-wrapper--3Bydi .Card__card-metadata--rating--16qzl {
+    font-size: 25px;
+    height: 50px; }
+  .Card__card-wrapper--3Bydi .Card__card-metadata--info--1mT8W {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between; }
+    .Card__card-wrapper--3Bydi .Card__card-metadata--info--1mT8W .Card__card-metadata--status--18vDC {
+      -webkit-box-align: center;
+      align-items: center;
+      display: -webkit-box;
+      display: flex; }
+      .Card__card-wrapper--3Bydi .Card__card-metadata--info--1mT8W .Card__card-metadata--status--18vDC p {
+        font-family: "Helvetica Neue", Helvetica, san-serif;
+        font-weight: 400;
+        letter-spacing: 1px;
+        font-size: 12px;
+        text-transform: uppercase; }
+    .Card__card-wrapper--3Bydi .Card__card-metadata--info--1mT8W span {
+      border-radius: 50%;
+      display: block;
+      height: 10px;
+      margin-right: 5px;
+      width: 10px; }
+  .Card__card-wrapper--3Bydi .Card__card-metadata--link--2jOlH {
+    color: blue; }
 
 h1,
 .Hero__h1--1O186 {
