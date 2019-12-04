@@ -1,24 +1,59 @@
+@import '../../globals/styles/typography';
+
 .card-wrapper {
+  display: flex;
+  flex-direction: column;
   max-width: 400px;
   width: 100%;
-}
+  
+  .card-metadata--wrapper {
+    flex: 0 1 auto;
+  }
 
-.card-metadata--image {
-  width: 100%;
-}
+  .card-metadata--image {
+    height: 228px;
+    width: 100%;
 
-.card-metadata--name {
+    & img {
+      object-fit: cover;
+    }
+  }
+  
+  .card-metadata--name {
+    font-size: 26px;
+  }
+  
+  .card-metadata--rating {
+    font-size: 25px;
+    height: 50px;
+  }
+  
+  .card-metadata--info {
+    display: flex;
+    justify-content: space-between;
 
-}
+    .card-metadata--status {
+      align-items: center;
+      display: flex;
+      
 
-.card-metadata--rating {
+      & p {
+        @include font-regular;
+        font-size: 12px;
+        text-transform: uppercase;
+      }
+    }
 
-}
-
-.card-metadata--info {
-
-}
-
-.card-metadata--link {
-
+    & span {
+      border-radius: 50%;
+      display: block;
+      height: 10px;
+      margin-right: 5px;
+      width: 10px;
+    }
+  }
+  
+  .card-metadata--link {
+    color: blue;
+  }
 }
