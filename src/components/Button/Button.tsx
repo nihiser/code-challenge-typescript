@@ -3,7 +3,7 @@ import classNames from 'classnames/bind';
 import styles from './Button.scss';
 
 interface ButtonProps {
-  inverted: boolean, 
+  inverted?: boolean, 
   onClick: any
 }
 
